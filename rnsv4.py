@@ -5,7 +5,7 @@ import streamlit as st
 from datetime import datetime, timedelta
 
 # 设置 Tushare 的 token
-ts.set_token('315d6d929a2e9cbea02854ff12517be8c93750dcd92b1715dd13f161')
+ts.set_token('')
 
 # 初始化 Tushare 的 Pro API
 pro = ts.pro_api()
